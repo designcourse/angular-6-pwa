@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+body, html {
+    height: calc(100% - 4em);
+}
+body {
+    background: brown;
+    color: #fff;
+    text-align: center;
+    font-family: 'Montserrat';
+    display: grid;
+    align-items: center;
+    font-size: 3em;
+    padding: 2em;
+}
